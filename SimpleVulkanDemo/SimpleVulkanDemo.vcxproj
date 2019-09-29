@@ -19,7 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\core\common\Window.cpp" />
+    <ClCompile Include="src\core\vulkan\Device.cpp" />
+    <ClCompile Include="src\core\vulkan\Instance.cpp" />
     <ClCompile Include="src\Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\core\common\Window.h" />
+    <ClInclude Include="src\core\svd_include.h" />
+    <ClInclude Include="src\core\vulkan\Device.h" />
+    <ClInclude Include="src\core\vulkan\Enumerators.h" />
+    <ClInclude Include="src\core\vulkan\Initializers.h" />
+    <ClInclude Include="src\core\vulkan\Instance.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

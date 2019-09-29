@@ -13,10 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{b7b29d0f-86c3-478c-8e80-22d4d9bcc20d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\vulkan">
+      <UniqueIdentifier>{5e977162-9e63-4a1c-986d-0a36ac2eed13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\common">
+      <UniqueIdentifier>{449d20d0-ca7d-4f9f-ab07-79fcd5d365eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\core\vulkan\Instance.cpp">
+      <Filter>Source Files\core\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\common\Window.cpp">
+      <Filter>Source Files\core\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\vulkan\Device.cpp">
+      <Filter>Source Files\core\vulkan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\core\svd_include.h">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\vulkan\Instance.h">
+      <Filter>Source Files\core\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\vulkan\Initializers.h">
+      <Filter>Source Files\core\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\vulkan\Enumerators.h">
+      <Filter>Source Files\core\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\common\Window.h">
+      <Filter>Source Files\core\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\vulkan\Device.h">
+      <Filter>Source Files\core\vulkan</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
